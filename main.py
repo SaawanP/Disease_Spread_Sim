@@ -6,18 +6,6 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 
-start = 0
-addition = 184
-interest = 0.06
-x = 0
-previous = 0
-for y in range(370):
-    x = addition + previous + previous*(interest/12)
-    previous = x
-
-print(x)
-
-
 # constant
 StartN = 750  # Population size (less dots means faster simulation)
 deathChance = 0.6
